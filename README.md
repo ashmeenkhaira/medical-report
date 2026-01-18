@@ -17,8 +17,8 @@
 <hr/>
 
 <p>
-🚀 <strong><a href="YOUR_STREAMLIT_APP_URL">Live Demo</a></strong> &nbsp; | &nbsp;
-🤗 <strong><a href="YOUR_HUGGINGFACE_MODEL_URL">Hugging Face Model</a></strong>
+🚀 <strong><a href="https://medical-report-ld4ooptgda2ndwohgrhpch.streamlit.app/">Live Demo</a></strong> &nbsp; | &nbsp;
+🤗 <strong><a href="https://huggingface.co/AshuKaur/medical-report/tree/main">Hugging Face Model</a></strong>
 </p>
 
 </div>
