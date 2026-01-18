@@ -7,10 +7,15 @@ st.set_page_config(
     page_title="Chest X-ray Report Generator",
     layout="centered"
 )
+from huggingface_hub import hf_hub_download
 
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model("model/model.keras")
+    model_path = hf_hub_download(
+        repo_id="<your-username>/chest-xray-report-generator",
+        filename="model.keras"
+    )
+    return tf.keras.models.load_model(model_path)
 
 model = load_model()
 vocab = load_vocab("model/vocab.txt")
